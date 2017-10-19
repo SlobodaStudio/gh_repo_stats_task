@@ -64,8 +64,8 @@ Response:
 
 ```json
 {
-  data: [ { size: 123, forks_count: 456, private: true } ],
-  meta: { page: 1, per_page: 1, total_pages: 2, total_entries: 2 }
+  "data": [ { "size": 123, "forks_count": 456, "private": true } ],
+  "meta": { "page": 1, "per_page": 1, "total_pages": 2, "total_entries": 2 }
 }
 ```
 
@@ -74,8 +74,8 @@ Response:
 
 ```json
 {
-  data: [ { size: 123, forks_count: 456, private: true }, { size: 789, forks_count: 42, private: false } ],
-  meta: { page: 1, per_page: 2, total_pages: 1, total_entries: 2 }
+  "data": [ { "size": 123, "forks_count": 456, "private": true }, { "size": 789, "forks_count": 42, "private": false } ],
+  "meta": { "page": 1, "per_page": 2, "total_pages": 1, "total_entries": 2 }
 }
 ```
 
